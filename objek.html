@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="main-title">Toko Online Sederhana</h1>
+    </header>
+
+    <main class="container">
+        
+        <section class="produk-section">
+            <h2>Daftar Produk</h2>
+            <div id="daftar-produk"></div>
+        </section>
+
+        <section class="keranjang-section">
+            <h2>Keranjang Belanja</h2>
+            <div class="cart-actions">
+                <button id="btn-undo" class="btn-warning">Batal Item Terakhir (pop)</button>
+                <button id="btn-clear" class="btn-danger">Kosongkan Keranjang</button>
+            </div>
+            
+            <ul id="daftar-keranjang"></ul>
+
+            <div id="ringkasan-total"></div>
+
+            <button id="btn-checkout" class="btn-primary">Checkout</button>
+            
+            <div id="area-ringkasan"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
